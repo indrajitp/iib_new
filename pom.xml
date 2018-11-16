@@ -4,7 +4,7 @@
   <artifactId>IIB_Maven_test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>iib-bar</packaging>
-  <name>test-mvn-service</name>
+  <name>aib-test-anand</name>
   	<build>
 		<!--sourceDirectory>C:\Anand\Dev_Services3\GeniusStatus_Dummy_App</sourceDirectory-->
 		<!--scriptSourceDirectory>C:\Anand\SourceCode\EA.Integration\ClaimsFeedService\GeniusStatus_Dummy_App</scriptSourceDirectory-->
@@ -22,15 +22,15 @@
 
 				<configuration>
 					<toolkitInstallDir>C:\Program Files\IBM\IIB\10.0.0.3</toolkitInstallDir>
-					<barName>C:\tmp\test-mvn-service.bar</barName>
+					<barName>C:\tmp\iib2\aib-test-anand.bar</barName>
 					<workspace>C:\jnk\jenkins\workspace</workspace>
 					<versionString>0.0.1-SNAPSHOT</versionString>
 					<cleanBuild>true</cleanBuild>
 					<deployAsSource>true</deployAsSource>
 					<esql21>false</esql21>
-					<applicationName>test-mvn-service</applicationName>
-					<configPropFileDirectory>C:\tmp\iib</configPropFileDirectory>					
-					<defaultPropertiesFile>C:\tmp\iib\test-mvn-service\target\iib\default.properties</defaultPropertiesFile>
+					<applicationName>aib-test-anand</applicationName>
+					<configPropFileDirectory>C:\tmp\iib2</configPropFileDirectory>					
+					<defaultPropertiesFile>C:\tmp\iib2\aib-test-anand\target\iib\default.properties</defaultPropertiesFile>
 					
 					<debugWorkspace>true</debugWorkspace>
 				</configuration>
