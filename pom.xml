@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gpi.esb</groupId>
+  <artifactId>IIB_Maven_test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>iib-bar</packaging>
+  <name>test-mvn-service</name>
+  	<build>
+		<!--sourceDirectory>C:\Anand\Dev_Services3\GeniusStatus_Dummy_App</sourceDirectory-->
+		<!--scriptSourceDirectory>C:\Anand\SourceCode\EA.Integration\ClaimsFeedService\GeniusStatus_Dummy_App</scriptSourceDirectory-->
+		<defaultGoal>package</defaultGoal>
+		<resources>
+			<resource>
+				<directory>.</directory>				
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>ch.sbb.maven.plugins</groupId>
+				<artifactId>iib-maven-plugin</artifactId>
+				<version>4.3-SNAPSHOT</version>
+
+				<configuration>
+					<toolkitInstallDir>C:\Program Files\IBM\IIB\10.0.0.3</toolkitInstallDir>
+					<barName>C:\tmp\test-mvn-service.bar</barName>
+					<workspace>C:\jnk\jenkins\workspace</workspace>
+					<versionString>0.0.1-SNAPSHOT</versionString>
+					<cleanBuild>true</cleanBuild>
+					<deployAsSource>true</deployAsSource>
+					<esql21>false</esql21>
+					<applicationName>test-mvn-service</applicationName>
+					<configPropFileDirectory>C:\tmp\iib</configPropFileDirectory>					
+					<defaultPropertiesFile>C:\tmp\iib\test-mvn-service\target\iib\default.properties</defaultPropertiesFile>
+					
+					<debugWorkspace>true</debugWorkspace>
+				</configuration>
+
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
