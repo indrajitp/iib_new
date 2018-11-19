@@ -1,3 +1,4 @@
+BROKER SCHEMA com.gpi.esb
 
 
 CREATE COMPUTE MODULE Mvn_Test_flow_Compute
