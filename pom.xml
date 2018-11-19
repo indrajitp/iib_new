@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.gpi.esb</groupId>
-  <artifactId>IIB_Maven_test</artifactId>
+  <artifactId>aib-test-anand</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>iib-bar</packaging>
-  <name>IIB_Maven_test</name>
+  <name>aib-test-anand</name>
   	<build>
 		<!--sourceDirectory>C:\Anand\Dev_Services3\GeniusStatus_Dummy_App</sourceDirectory-->
 		<!--scriptSourceDirectory>C:\Anand\SourceCode\EA.Integration\ClaimsFeedService\GeniusStatus_Dummy_App</scriptSourceDirectory-->
@@ -28,7 +28,7 @@
 					<cleanBuild>true</cleanBuild>
 					<deployAsSource>true</deployAsSource>
 					<esql21>false</esql21>
-					<applicationName>IIB_Maven_test</applicationName>
+					<applicationName>aib-test-anand</applicationName>
 					<configPropFileDirectory>C:\tmp\deleteitnow\iib_new</configPropFileDirectory>					
 					<defaultPropertiesFile>C:\tmp\deleteitnow\iib_new\target\lib\default.properties</defaultPropertiesFile>
 					
